@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+lab/.venv/
+lab/out/
+
+# Swift / Xcode
+.build/
+.swiftpm/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+App/EchoMap.xcodeproj/
+App/build/
+
+# Audio: raw recordings never get committed, except golden fixtures
+*.wav
+!fixtures/**/*.wav
+recordings/
